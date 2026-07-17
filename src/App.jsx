@@ -750,7 +750,7 @@ function Sidebar({ active, onNavigate, nav = NAV, flat = false }) {
       {/* Logo */}
       <div className="flex h-14 items-center gap-1.5 px-4">
         <div className="h-7 w-[30px] shrink-0 overflow-hidden">
-          <img src="/ensylon-logo.png" alt="" className="h-full w-auto max-w-none" />
+          <img src={`${import.meta.env.BASE_URL}ensylon-logo.png`} alt="" className="h-full w-auto max-w-none" />
         </div>
         <span className="text-[26px] font-extrabold leading-none tracking-tight text-[#1534C2]">
           nexus
